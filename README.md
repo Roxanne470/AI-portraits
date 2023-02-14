@@ -39,9 +39,9 @@ Once the installation process is completed, we will have the environment for run
 
 ### Step 3: Execute the generative AI scripts
 
-Now, go to the `app` folder (`cd app`) and run the demo.pyfile.
+Now, go to the `app` folder (`cd app`) and run the `demo.py` file.
 
 `python3 demo.py`
 
 It will download the model weights file `u2net.tgz` and load the weights into a U-squared network architecture initialized from `model.py`.
-The script will take any new jpeg images from the `test_photosfolder` and generate a portrait (using the U-squared network) for each test image. The generated portraits will be saved into the `test_resultsfolder`.
+The script will take any new jpeg images from the `test_photos` folder and generate a portrait (using the U-squared network) for each test image. The generated portraits will be saved into the `test_results` folder.
